@@ -1,0 +1,28 @@
+header{
+	display: flex;
+	font-size: 2rem;
+	color: blueviolet;
+	width: 100vw;
+	align-items: center;
+	justify-content: end;
+	background: rgba(252, 187, 10, 1.5);
+
+}
+header ul{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin: 0 20px;
+
+	
+}
+li{
+	padding: 0.5rem;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 15px;
+}
