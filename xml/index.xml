@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<header>
+	
+		<img class="logo" src="assets/img/pawn-logo.jpg"></img>
+	
+	<ul>
+		<li>Casa</li>
+		<li>About</li>
+		<li>Nema</li>
+		
+	</ul>
+</header>
+	<div class="banner-container">
+		<img src="assets/img/colegiu-image.jpg"></img>
+		<h1>Locul natal al BÂDLEI</h1>
+	</div>
+	<footer>
+		<div>
+			<h1>Brought to you by: C.U.M Inc</h1>
+		</div>
+		<!-- <div style="display: none;">
+			                                                              
+            88                                                
+            ""                                                
+                                                              
+8b,dPPYba,  88  ,adPPYb,d8  ,adPPYb,d8  ,adPPYba, 8b,dPPYba,  
+88P'   `"8a 88 a8"    `Y88 a8"    `Y88 a8P_____88 88P'   "Y8  
+88       88 88 8b       88 8b       88 8PP""""""" 88          
+88       88 88 "8a,   ,d88 "8a,   ,d88 "8b,   ,aa 88          
+88       88 88  `"YbbdP"Y8  `"YbbdP"Y8  `"Ybbd8"' 88          
+                aa,    ,88  aa,    ,88                        
+                 "Y8bbdP"    "Y8bbdP"                         
+		</div> -->
+	</footer>
+
+
+</root>
