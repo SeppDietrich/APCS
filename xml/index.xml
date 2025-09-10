@@ -2,7 +2,7 @@
 <root>
 <header>
 	
-		<img class="logo" src="assets/img/pawn-logo.jpg"></img>
+		<img  src="assets/img/pawn-logo.jpg"></img>
 	
 	<ul>
 		<li>Casa</li>
@@ -11,7 +11,7 @@
 		
 	</ul>
 </header>
-	<div class="banner-container">
+	<div>
 		<img src="assets/img/colegiu-image.jpg"></img>
 		<h1>Locul natal al BÂDLEI</h1>
 	</div>
