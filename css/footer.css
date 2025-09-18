@@ -1,11 +1,11 @@
 footer{
     background-color: dimgrey;
     width: 100vw;
-    height: 20wh;
+    height: 20vh;
     display: flex;
     position: fixed;
-    top: 90%;
+    bottom: 0%;
     align-items: center;
     justify-content: space-around;
-
+    align-items: center;
 }
