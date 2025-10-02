@@ -1,12 +1,15 @@
 header{
 	display: flex;
 	font-size: 1rem;
-	color: blueviolet;
+	color: #333;
 	width: 100vw;
 	align-items: center;
 	justify-content: end;
-	background: rgba(252, 187, 10, 1.5);
-
+	background-color: #e0e0e0;
+	border-bottom: 2px solid #ccc;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 header ul{
 	text-decoration: none;
@@ -14,15 +17,24 @@ header ul{
 	display: flex;
 	flex-direction: row;
 	margin: 0 20px;
-
-	
+	gap: 20px;
 }
-li{
-	padding: 0.5rem;
+
+
+li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+li a:hover {
+	color: #666;
 }
 .logo{
 	width: 50px;
 	height: 50px;
 	position: absolute;
 	left: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }

@@ -22,7 +22,7 @@
 		<li><h2><strong>Casa</strong></h2></li>
 		<li><h2>Abot</h2></li>
 		<li><h2>Nema</h2></li>
-		<li><h2><a href="#footer">Footer</a></h2></li>
+		<li><h2><a href="#lastElement">Footer</a></h2></li>
 		
 	</ul>
 </header>
@@ -54,7 +54,7 @@
 		</div>
 		<img src="assets/img/OIP-2070269119.jpg" alt="Tabla Sah" width="300px">
 		<img src="assets/img/OIP-310448865.jpg"  alt="Alta tabla sah" height="200px">
-		 <audio controls id="footer">
+		 <audio controls >
   <source src="assets/audio/hitler-nein!-made-with-Voicemod.mp3" type="audio/mpeg">
 
 </audio> 
@@ -78,26 +78,27 @@
   <tr style="border: 1px solid black;">
     <td>Fabiano Caruana</td>
     <td>2789</td>
-	<td></td>
+	
     
   </tr>
 </table> 
 	<h2>Pentru updates pe tema șah este canalul <a href="https://www.youtube.com/channel/UC9B47GnzCRFHTT1BIBWvStQ"> FIDE</a></h2>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/7hgvLBZ7Taw?si=bqFQfxzpmw-USTJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-	
+	<h2 style="padding-top: 20px;">Cel mai apropiat club de șah:</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d87043.0337161187!2d28.835496540327682!3d47.0187440951121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1schess%20club!5e0!3m2!1sen!2s!4v1758175451316!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	
 	<!-- Formular -->
 	<form >
         <h2>Formular de Contact</h2>
         
-        <div>
+        <div class="form-input">
             <label for="nume">Nume</label>
-            <input type="text"  required>
-        </div>
+            <input type="text"  placeholder="Name Surname" required>
+        </div> 
         
-        <div>
+        <div class="form-input">
             <label for="email">Email</label>
-            <input type="email" required>
+            <input type="email" placeholder="namesurname@gmail.com" required>
         </div>
         
         <div>
@@ -127,34 +128,22 @@
             </div>
         </div>
         
-        <button type="submit">Trimite mesaj</button>
+        <button type="submit" id="trimite">Trimite mesaj</button>
 
 
 
+
+		<div id="lastElement"></div>
 </div>
 
 	
 	
 	<footer >
 		<div>
-			<h1><a href="https://github.com/SeppDietrich/APCS"><pre>Brought to you by: C.U.M <sup>Inc</sup></pre></a> </h1>
+			<h1><pre><a href="https://github.com/SeppDietrich/APCS">Brought to you by:</a><a href="mailto:colegiuUTM@colegiu.utm.md?cc=feedback@xyz.com&bcc=contact@xyz.org" target="_blank">C.U.M<sup>Inc</sup></a></pre></h1>
 		</div>
 		
-		<div style="display: none;">
-			<p>
-			                                                              
-            88                                                
-            ""                                                
-                                                              
-8b,dPPYba,  88  ,adPPYb,d8  ,adPPYb,d8  ,adPPYba, 8b,dPPYba,  
-88P'   `"8a 88 a8"    `Y88 a8"    `Y88 a8P_____88 88P'   "Y8  
-88       88 88 8b       88 8b       88 8PP""""""" 88          
-88       88 88 "8a,   ,d88 "8a,   ,d88 "8b,   ,aa 88          
-88       88 88  `"YbbdP"Y8  `"YbbdP"Y8  `"Ybbd8"' 88          
-                aa,    ,88  aa,    ,88                        
-                 "Y8bbdP"    "Y8bbdP"                         
-			</p>
-		</div>
+
 	</footer>
 
 </body>
